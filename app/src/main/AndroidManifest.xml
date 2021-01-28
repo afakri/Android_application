@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.service_novigrad">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CheckDocuments"></activity>
+        <activity android:name=".CheckInfos" />
+        <activity android:name=".SetAppointment" />
+        <activity android:name=".WorkingHoursFilter" />
+        <activity android:name=".SearchBranch" />
+        <activity android:name=".UploadDocument" />
+        <activity android:name=".CompleteInfos" />
+        <activity android:name=".CompleteDocuments" />
+        <activity android:name=".Request" />
+        <activity android:name=".SendRequest" />
+        <activity android:name=".signup_employee" />
+        <activity android:name=".ChooseSignup" />
+        <activity android:name=".EditServicesEmployee" />
+        <activity android:name=".ListOfServicesAvailable" />
+        <activity android:name=".DailyHours" />
+        <activity android:name=".EmployeeControlCenter" />
+        <activity android:name=".WorkingHoursInWeek" />
+        <activity android:name=".Infos" />
+        <activity android:name=".Documents" />
+        <activity android:name=".ListOfUsers" />
+        <activity android:name=".EditServices" />
+        <activity android:name=".ControlCenter" />
+        <activity android:name=".WelcomePage" />
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity android:name=".CustomerControlCentre" />
+        <activity android:name=".MeetingChooseBranch" />
+        <activity android:name=".ChooseBranchtoRate" />
+        <activity android:name=".EmployeeViewRating" />
+        <activity android:name=".Rate" />
+        <activity android:name=".RequestStatus" />
+        <activity android:name=".Status" />
+        <activity android:name=".RequestListforBranch" />
+        <activity android:name=".ChooseDate" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

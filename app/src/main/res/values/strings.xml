@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Service Novigrad</string>
+    <string name="servives">Servives</string>
+    <string name="add_service">Add Service</string>
+    <string name="list_of_services">List of Services</string>
+    <string name="services">services</string>
+    <string name="done">done</string>
+    <string name="send_request">Send Request</string>
+    <string name="choose_service">Choose Service</string>
+    <string name="complete_documents">complete Documents</string>
+    <string name="complete_info">Complete Info</string>
+    <string name="complete_the_following_form">Complete the Following form</string>
+    <string name="submit">Submit</string>
+    <string name="some_text">Some Text</string>
+    <string name="enter_a_valid_form">Enter a valid form</string>
+    <string name="cancel">Cancel</string>
+    <string name="upload_the_following_docs">Upload the following docs</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="check_docs">Check Documents</string>
+    <string name="check_info">Check Infos</string>
+    <string-array name="filters">
+        <item>Name</item>
+        <item>Address</item>
+        <item>Service</item>
+        <item>WorkingHours</item>
+    </string-array>
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>
